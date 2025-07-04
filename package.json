@@ -1,6 +1,6 @@
 {
   "name": "zyx-mongodb",
-  "version": "0.20.0",
+  "version": "0.20.1",
   "description": "Implments function to create mongodb connections and winston logger using mongodb",
   "main": "index.js",
   "scripts": {
