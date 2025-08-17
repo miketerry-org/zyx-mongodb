@@ -7,13 +7,6 @@
     "dev": "NODE_ENV=dev nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "bcrypt": "^6.0.0",
-    "mongodb": "^6.17.0",
-    "mongoose": "^8.16.1",
-    "winston": "^3.17.0",
-    "winston-mongodb": "^7.0.0"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/miketerry-org/zyx-mongodb.git"
@@ -30,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/miketerry-org/zyx-mongodb/issues"
   },
-  "homepage": "https://github.com/miketerry-org/zyx-mongodb#readme"
+  "homepage": "https://github.com/miketerry-org/zyx-mongodb#readme",
+  "dependencies": {
+    "mongodb": "^6.18.0",
+    "mongoose": "^8.17.1",
+    "winston": "^3.17.0",
+    "winston-mongodb": "^7.0.0"
+  }
 }
