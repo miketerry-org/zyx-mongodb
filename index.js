@@ -3,10 +3,8 @@
 "use strict";
 
 // load all necessary modules
-const createDB = require("./lib/createDB");
-const closeDB = require("./lib/closeDB");
-const createLog = require("./lib/createLog");
-const closeLog = require("./lib/closeLog");
-const MongooseModel = require("./lib/mongooseModel");
+const MongoDatabase = require("./lib/mongoDatabase");
+const MongoLog = require("./lib/mongoLog");
+const MongoModel = require("./lib/mongoModel");
 
-module.exports = { createDB, closeDB, createLog, closeLog, MongooseModel };
+module.exports = { MongoDatabase, MongoLog, MongoModel };

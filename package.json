@@ -1,6 +1,6 @@
 {
   "name": "zyx-mongodb",
-  "version": "0.20.13",
+  "version": "0.20.14",
   "description": "Implments function to create mongodb connections and winston logger using mongodb",
   "main": "index.js",
   "scripts": {
@@ -26,8 +26,8 @@
   "homepage": "https://github.com/miketerry-org/zyx-mongodb#readme",
   "dependencies": {
     "mongodb": "^6.18.0",
-    "mongoose": "^8.17.1",
+    "mongoose": "^8.17.2",
     "winston": "^3.17.0",
-    "winston-mongodb": "^7.0.0"
+    "winston-mongodb": "^7.0.1"
   }
 }
